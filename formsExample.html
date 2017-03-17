@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<body>
+
+    <form id="simplecontactform" method="get" action="#simplecontactform">
+      <fieldset>
+        <legend>Contact form</legend>
+          <label accesskey="V" for="name">Name: </label><input name="name" id="name" type="text" value=""  placeholder="Your Name" />
+
+          <div>
+            <label for="email">E-mail: </label>
+            <span class="help">[<a href="#help-email" onclick="showHelp('help-email');return false" title="help details for email address">help</a>]</span>
+
+            <div class="help" id="help-email">
+              <h4 class="help">E-mail help</h4>
+              <p>Help text in here, All that happens is that this is displayed when help is clicked on.</p>
+            </div>
+
+            <input name="email" id="email" type="text" value=""  placeholder="Your Email" />
+          </div>
+
+          <div>
+            <label for="phone">Telephone: </label>
+            <span class="help">[<a href="#help-phone" onclick="showHelp('help-phone');return false" title="help details for telephone input">help</a>]</span>
+
+            <div class="help" id="help-phone">
+              <h4 class="help">Phone help</h4>
+              <p>Help text in here, lots of it or hardly any it matters not. All that happens is that this is displayed when help is clicked on. It is important that it appears before the input though. It is also a good idea to have the background slightly different so sighted users know something has been added to the page.</p>
+            </div>
+
+            <input name="phone" id="phone" type="text" value=""   placeholder="Your Phone Number"/>
+          </div>
+
+        <div><label for="site">Web site: </label><input name="site" id="site" type="text" value="http://" /></div>
+        <label for="query">Message</label><textarea name="query" id="query" cols="30" rows="5">Message Here</textarea>
+        <fieldset>
+          <legend>Newsletter</legend>
+          <div>
+            <input title="Subscribe" class="check" type="checkbox" name="check1" id="check1_0" value="" />
+            <label for="check1_0">Subscribe to the newsletter</label>
+          </div>
+          <input title="html format" class="radio" type="radio" name="rad2" id="rad2_1" value="" checked="checked" />
+          <label for="rad2_1">HTML format</label>
+          <input title="text format" class="radio" type="radio" name="rad2" id="rad2_2" value="" />
+          <label for="rad2_2">Plain text format</label>
+        </fieldset>
+        <input class="button" type="submit" id="Submit" name="Submit" value="Send" />
+      </fieldset>
+    </form>
+
+</body>
+</html>

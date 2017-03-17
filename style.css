@@ -9,3 +9,56 @@
  Text Domain:  unlimited-child
 */
 
+
+body
+{
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+
+#main
+{
+	width: 100% !important;
+	padding-top: 0px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+#content {width:500px; font:76.1% Verdana, arial, sans-serif;}
+
+/* note that by using an id on each form that it is is individually controllable
+ use a general class for consistency and refer via the id for unique properties */
+
+#simplecontactform                {margin:0 0 2em 0; text-align:left}
+#simplecontactform *              {font:inherit}
+#simplecontactform div             {margin:0.5em 0}
+#simplecontactform fieldset       {border:1px solid #657; padding:0.5em 1em; margin:2em 10px; color:#657}
+#simplecontactform legend         {font-weight:bold; padding:0 0.5em}
+#simplecontactform p              {margin-bottom:0.8em}
+#simplecontactform label          {font-weight:bold}
+#simplecontactform input.text     {background:#FFF0D0; border:2px inset #ccc; width:220px; margin-left:1em; background:#dde; padding:2px 3px 2px 5px; vertical-align:middle}
+#simplecontactform input.radio    {border:2px solid #fff; margin-left:1.5em; vertical-align:middle}
+#simplecontactform textarea       {background:#FFF0D0; border:2px inset #ccc; width:220px; margin-left:1em; background:#fff; font-size:100%; padding:2px 3px 2px 5px; vertical-align:middle}
+#simplecontactform input.button   {border:2px outset #727070; color:#fff; background:#000; vertical-align:bottom;}
+
+
+/* help link example */
+/* please note: that bg & txt colour of the help link should be associated with the bg & txt color of the help div */
+#simplecontactform div.help     {background:#f0f0f0; padding:5px; color:#060; text-align:left}
+#simplecontactform div.help h4  {font-size:small; margin:0 0 0.5em 0}
+#simplecontactform div.help p   {margin:0}
+
+#simplecontactform span.help    {font-size:small; background:#f0f0f0; padding:2px}
+#simplecontactform span.help  a {color:#060}
+/* end help link example */
+
+@media screen and (max-width: 800px) { 
+    #main
+    {
+        width: 100% !important;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+}
