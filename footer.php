@@ -18,7 +18,7 @@
 	<div class="design-credit">
         <span>
             <?php
-            $footer_text = sprintf( __('Thankyou for visiting.'), '', wp_get_theme( get_template() ) );
+            $footer_text = sprintf( __('Thank you for visiting.'), '', wp_get_theme( get_template() ) );
             $footer_text = apply_filters( 'footer_text', $footer_text );
             echo wp_kses_post( $footer_text );
             ?>
