@@ -9,85 +9,202 @@
  Text Domain:  unlimited-child
 */
 
-
-body
-{
+body {
     font-family: Verdana, Geneva, sans-serif !important;
     color: #000;
     background-color: #FFFFFF;
 }
 
-#main
-{
-	width: 100% !important;
-	padding-top: 0px;
+#main {
+    width: 100% !important;
+    padding-top: 0px;
     padding-right: 60px;
     padding-bottom: 0px;
     padding-left: 0px;
 }
 
-
 .site-header {
-    background: #053687 ;
+    background: #053687;
     padding: 0.75em 3.125% 0;
     color: white;
     overflow: hidden;
 }
 
-.site-description
-{
+.site-description {
     font-size: 150%;
     color: white;
 }
 
-.footer-content .site-description
-{
+.footer-content .site-description {
     font-size: 100%;
 }
 
-code
-{
-    background:none !important;
+code {
+    background: none !important;
 }
 
 .entry {
-  margin-top: 1.5em;
-  background: white;
-  border: none !important;
+    margin-top: 1.5em;
+    background: white;
+    border: none !important;
 }
 
+div.wpforms-container-full .wpforms-form textarea {
+    border: 1px solid #000 !important;
+}
 
-#content {width:500px; font:76.1% Verdana, arial, sans-serif;}
+textarea {
+    color: #000000 !important;
+    outline: solid 1px #000000 !important;
+}
+
+#content {
+    width: 500px;
+    font: 76.1% Verdana, arial, sans-serif;
+}
+
+body pre {
+    background: none !important;
+}
+
+pre,
+xmp,
+plaintext,
+listings {
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+
+pre,
+xmp,
+plaintext,
+listings {
+    padding: 0px !important;
+}
+
+.post-content {
+    margin: 0px !important;
+}
+
+.add_posts_content hr {
+    margin: 0px 0 !important;
+    border: none;
+    border-style: none;
+}
+
+.add_posts_content p {
+    margin: 0px 0 !important;
+    border: none;
+    border-style: none;
+}
+
 
 /* note that by using an id on each form that it is is individually controllable
  use a general class for consistency and refer via the id for unique properties */
 
-#simplecontactform                {margin:0 0 2em 0; text-align:left}
-#simplecontactform *              {font:inherit}
-#simplecontactform div             {margin:0.5em 0}
-#simplecontactform fieldset       {border:1px solid #657; padding:0.5em 1em; margin:2em 10px; color:#657}
-#simplecontactform legend         {font-weight:bold; padding:0 0.5em}
-#simplecontactform p              {margin-bottom:0.8em}
-#simplecontactform label          {font-weight:bold}
-#simplecontactform input.text     {background:#FFF0D0; border:2px inset #ccc; width:220px; margin-left:1em; background:#dde; padding:2px 3px 2px 5px; vertical-align:middle}
-#simplecontactform input.radio    {border:2px solid #fff; margin-left:1.5em; vertical-align:middle}
-#simplecontactform textarea       {background:#FFF0D0; border:2px inset #ccc; width:220px; margin-left:1em; background:#fff; font-size:100%; padding:2px 3px 2px 5px; vertical-align:middle}
-#simplecontactform input.button   {border:2px outset #727070; color:#fff; background:#000; vertical-align:bottom;}
+#simplecontactform {
+    margin: 0 0 2em 0;
+    text-align: left
+}
+
+#simplecontactform * {
+    font: inherit
+}
+
+#simplecontactform div {
+    margin: 0.5em 0
+}
+
+#simplecontactform fieldset {
+    border: 1px solid #657;
+    padding: 0.5em 1em;
+    margin: 2em 10px;
+    color: #000
+}
+
+#simplecontactform legend {
+    font-weight: bold;
+    padding: 0 0.5em
+}
+
+#simplecontactform p {
+    margin-bottom: 0.8em
+}
+
+#simplecontactform label {
+    font-weight: bold
+}
+
+#simplecontactform input.text {
+    background: #FFF0D0;
+    border: 2px inset #ccc;
+    width: 220px;
+    margin-left: 1em;
+    background: #dde;
+    padding: 2px 3px 2px 5px;
+    vertical-align: middle
+}
+
+#simplecontactform input.radio {
+    border: 2px solid #fff;
+    margin-left: 1.5em;
+    vertical-align: middle
+}
+
+#simplecontactform textarea {
+    background: #FFF0D0;
+    border: 2px inset #ccc;
+    width: 220px;
+    margin-left: 1em;
+    background: #fff;
+    font-size: 100%;
+    padding: 2px 3px 2px 5px;
+    vertical-align: middle
+}
+
+#simplecontactform input.button {
+    border: 2px outset #727070;
+    color: #fff;
+    background: #000;
+    vertical-align: bottom;
+}
 
 
 /* help link example */
-/* please note: that bg & txt colour of the help link should be associated with the bg & txt color of the help div */
-#simplecontactform div.help     {background:#f0f0f0; padding:5px; color:#060; text-align:left}
-#simplecontactform div.help h4  {font-size:small; margin:0 0 0.5em 0}
-#simplecontactform div.help p   {margin:0}
 
-#simplecontactform span.help    {font-size:small; background:#f0f0f0; padding:2px}
-#simplecontactform span.help  a {color:#060}
+
+/* please note: that bg & txt colour of the help link should be associated with the bg & txt color of the help div */
+
+#simplecontactform div.help {
+    background: #f0f0f0;
+    padding: 5px;
+    color: #060;
+    text-align: left
+}
+
+#simplecontactform div.help h4 {
+    font-size: small;
+    margin: 0 0 0.5em 0
+}
+
+#simplecontactform div.help p {
+    margin: 0
+}
+
+#simplecontactform span.help {
+    font-size: small;
+    background: #f0f0f0;
+    padding: 2px
+}
+
+#simplecontactform span.help a {
+    color: #060
+}
+
+
 /* end help link example */
 
-@media screen and (max-width: 800px) { 
-    #main
-    {
+@media screen and (max-width: 800px) {
+    #main {
         width: 100% !important;
         padding-top: 0px;
         padding-right: 0px;
@@ -96,14 +213,15 @@ code
     }
 }
 
-/* 800px */
-@media all and (min-width: 50em) {
-  .site-header {
-    overflow: visible;
-  }
 
-  .title-container {
-    margin: 0em 0 1.75em;
-    text-align: center;
-  }
+/* 800px */
+
+@media all and (min-width: 50em) {
+    .site-header {
+        overflow: visible;
+    }
+    .title-container {
+        margin: 0em 0 1.75em;
+        text-align: center;
+    }
 }
